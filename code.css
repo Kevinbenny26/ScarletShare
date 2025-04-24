@@ -1,0 +1,34 @@
+﻿/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* Custom hover effects for buttons */
+button:hover {
+  transition: background-color 0.3s ease;
+}
+/* Ensure accessibility for form inputs */
+input, select {
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+input:focus, select:focus {
+  outline: 2px solid #b91c1c;
+  /* Rutgers scarlet color for focus */
+  border-color: #b91c1c;
+}
+/* List styling for materials */
+#materialsList li {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+#materialsList li:last-child {
+  border-bottom: none;
+}
